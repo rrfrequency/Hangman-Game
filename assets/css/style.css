@@ -1,0 +1,61 @@
+/*---CSS Hangman ---*/
+
+/*--- General stuff ---*/
+
+body {
+	/*background: url("../images/backgroundmap.jpg");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 75%;
+	background-color: white; */
+}
+
+h1, h2, h3,p {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: darkred;
+
+}
+
+
+
+/*--- main container---*/
+.main-container {
+	max-width: 960px;
+	border: 1px solid red;	
+}
+
+/*--- header ---*/
+header {
+	border: 1px solid purple;
+	text-align: center;
+	margin: 0 auto;
+	height: 150px;
+	width: 100%;
+}
+
+/*--- Game area and visuals ---*/
+#game-section {
+	border: 1px solid blue;
+	text-align: center;
+	margin: 0 auto;
+	height: 300px;
+	width: 80%;	
+}
+
+/*--- alphabet list ---*/
+#letters-buttons {
+	border: 1px solid blue;
+	text-align: center;
+	margin: 0 auto;
+	height: 150px;
+	width: 80%;
+}
+
+/*--- wrong letters list ---*/
+#wrong-letters-chosen {
+	border: 1px solid blue;
+	text-align: center;
+	margin: 0 auto;
+	height: 150px;
+	width: 80%;
+}
